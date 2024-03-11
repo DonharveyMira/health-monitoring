@@ -1,0 +1,13 @@
+ username = username_entry.get().lower()
+    password = password_entry.get()
+
+    if username == "rtufaculty" and password == "1234": 
+        message_label.config(text="Login successful!", fg="#497687")
+        openHomepage()
+    elif username.capitalize() == "Rtufaculty" and password == "1234": 
+        message_label.config(text="Login successful!", fg="#497687")
+        openHomepage()
+    else:
+        message_label.config(text="Login failed. Please try again.", fg="#b12a2a")TO-DOS:
+
+USERNAME NOTE LOGIN
